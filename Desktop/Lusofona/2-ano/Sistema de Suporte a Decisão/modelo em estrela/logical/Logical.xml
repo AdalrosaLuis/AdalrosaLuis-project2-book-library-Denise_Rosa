@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="450CB3C8-B99E-935F-3F61-E7DEDD0F9439" mainViewID="00A1A9D6-46A4-8294-F7CF-F698D6065B67">
-<createdBy>Suporte</createdBy>
-<createdTime>2025-03-12 10:54:30 UTC</createdTime>
-<ownerDesignName>modelo em estrela</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</LogicalDesign>

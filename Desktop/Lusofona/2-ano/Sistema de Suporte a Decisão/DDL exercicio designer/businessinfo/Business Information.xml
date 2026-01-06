@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="211B38A2-D0F0-286A-D801-9B15EF9543D9">
-<createdBy>Suporte</createdBy>
-<createdTime>2025-02-27 17:59:50 UTC</createdTime>
-<ownerDesignName>ssd exercicio 1</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</BusinessInfoDesign>

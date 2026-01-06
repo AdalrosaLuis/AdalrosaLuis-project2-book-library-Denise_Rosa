@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="00559871-45EE-E616-05B1-BAC07ED5BA86">
-<createdBy>Suporte</createdBy>
-<createdTime>2025-02-27 17:59:49 UTC</createdTime>
-<ownerDesignName>ssd exercicio 1</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</ProcessModel>

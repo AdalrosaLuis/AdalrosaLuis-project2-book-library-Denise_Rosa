@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<SchemaSqlServerv2k5 class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.SchemaSqlServerv2k5" name="SCHEMA3" directorySegmentName="seg_0" id="E6E33C1B-5B12-2A86-1813-938AFE687912">
-<sourceDDLFile>create_ additional_library_objects.sql</sourceDDLFile>
-<createdBy>Suporte</createdBy>
-<createdTime>2025-02-27 18:08:00 UTC</createdTime>
-<ownerDesignName>DDL exercicio designer</ownerDesignName>
-<database>DB_NULLELEMENT</database>
-</SchemaSqlServerv2k5>

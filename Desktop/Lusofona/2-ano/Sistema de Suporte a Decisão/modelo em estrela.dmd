@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="modelo em estrela" id="4156FADE-8301-0A42-7DA6-489E65118994" version="3.5">
-<createdBy>Suporte</createdBy>
-<createdTime>2025-03-12 10:54:30 UTC</createdTime>
-<ownerDesignName>modelo em estrela</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>4156FADE-8301-0A42-7DA6-489E65118994</designId>
-</OSDM_Design>
