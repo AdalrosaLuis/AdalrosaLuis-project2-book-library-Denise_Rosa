@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D1750E04-C7B1-0AA2-8098-435F1CBE9BAA" name="Books">
+<createdBy>Suporte</createdBy>
+<createdTime>2025-02-28 07:18:59 UTC</createdTime>
+<generatorID>C5D42AC9-8119-F3C1-C630-0E451CBD4DA7</generatorID>
+<ownerDesignName>DDL exercicio designer</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="book_Id" id="3925610F-0F00-BCDF-4E7D-A45538DA0FAE">
+<createdBy>Suporte</createdBy>
+<createdTime>2025-02-28 07:18:59 UTC</createdTime>
+<generatorID>2C42C03F-E1BF-D43F-8390-F59006AAA728</generatorID>
+<ownerDesignName>DDL exercicio designer</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F09E2468-23EF-28E3-C7AC-C4529CEACB00</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="title" id="6B99FBBA-8B30-0FEC-F750-95FCE985B278">
+<createdBy>Suporte</createdBy>
+<createdTime>2025-02-28 07:18:59 UTC</createdTime>
+<generatorID>5A48EBEA-3E7D-C7A2-B845-522332542DB4</generatorID>
+<ownerDesignName>DDL exercicio designer</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0E4AFC34-4A73-AFB9-001E-AA8AE7267007</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rating" id="0445B9B0-5466-41F1-9195-D1A72B48B704">
+<createdBy>Suporte</createdBy>
+<createdTime>2025-02-28 07:18:59 UTC</createdTime>
+<generatorID>9158DA7F-8536-4476-C207-55312F2622AE</generatorID>
+<ownerDesignName>DDL exercicio designer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Authors_author_id" id="08410065-5998-6486-5574-30D8F11A7682">
+<createdBy>Suporte</createdBy>
+<createdTime>2025-02-28 07:18:59 UTC</createdTime>
+<generatorID>55E424BE-5FDC-FAF2-27FE-62FAF6BAD93E</generatorID>
+<ownerDesignName>DDL exercicio designer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,0,0</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4A5C0FFA-CD64-D8CF-F4B3-DEE0D35B0B51" referredColumn="D17C85D7-C7BF-71D2-E3A1-51C87BA654E3"/>
+</associations>
+</Column>
+<Column name="Categories_category_id" id="8F713C78-EBCB-ECC8-4DF5-94B066688320">
+<createdBy>Suporte</createdBy>
+<createdTime>2025-02-28 07:18:59 UTC</createdTime>
+<generatorID>4B820093-7730-3411-ECB7-757E42F7A5AA</generatorID>
+<ownerDesignName>DDL exercicio designer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,0,0</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="07DD8836-F600-2D94-5CD2-D15C762EEBF4" referredColumn="8A19A0D0-AC1F-77CF-A73C-2DC3BD0F2FC3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3DB109CC-B793-85D3-122B-F4F6E7526382" name="Books_PK">
+<createdBy>Suporte</createdBy>
+<createdTime>2025-02-28 07:18:59 UTC</createdTime>
+<generatorID>6788631A-3749-BC49-7C39-1A36092127AB</generatorID>
+<ownerDesignName>DDL exercicio designer</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3925610F-0F00-BCDF-4E7D-A45538DA0FAE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0858C277-AA36-BEF5-7583-AA5A07490D4B" name="Books_Categories_FK">
+<createdBy>Suporte</createdBy>
+<createdTime>2025-02-28 07:18:59 UTC</createdTime>
+<generatorID>F4C545BB-D363-5D2E-F39A-AF6B08ABE70B</generatorID>
+<ownerDesignName>DDL exercicio designer</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F713C78-EBCB-ECC8-4DF5-94B066688320"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EEBC75E8-BC4D-2139-FC3F-B735AECE8560" name="Books_Authors_FK">
+<createdBy>Suporte</createdBy>
+<createdTime>2025-02-28 07:18:59 UTC</createdTime>
+<generatorID>45875023-63C0-FAA2-74D5-B665B82E1A4E</generatorID>
+<ownerDesignName>DDL exercicio designer</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08410065-5998-6486-5574-30D8F11A7682"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

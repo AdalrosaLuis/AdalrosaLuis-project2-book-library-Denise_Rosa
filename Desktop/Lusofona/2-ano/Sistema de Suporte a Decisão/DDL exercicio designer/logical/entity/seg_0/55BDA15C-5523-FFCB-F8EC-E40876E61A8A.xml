@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="55BDA15C-5523-FFCB-F8EC-E40876E61A8A" name="Stocks">
+<createdBy>Suporte</createdBy>
+<createdTime>2025-02-27 18:12:17 UTC</createdTime>
+<generatorID>DDB81867-9C65-98BE-59B3-970FB1CBFDE7</generatorID>
+<ownerDesignName>DDL exercicio designer</ownerDesignName>
+<engineerTo>
+<item key="FA6DD46E-304A-86AE-60D3-F6EF4BA8D473" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="stock id" id="AF314029-C33B-F2FF-D65B-613C1B13D142">
+<createdBy>Suporte</createdBy>
+<createdTime>2025-02-27 18:12:17 UTC</createdTime>
+<generatorID>CBD170FA-3DCE-52B7-82DE-2CDC4B164A3E</generatorID>
+<ownerDesignName>DDL exercicio designer</ownerDesignName>
+<engineerTo>
+<item key="FA6DD46E-304A-86AE-60D3-F6EF4BA8D473" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,0,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="amount" id="FDEED843-3FB1-6108-BDA7-401898A97B6B">
+<createdBy>Suporte</createdBy>
+<createdTime>2025-02-27 18:12:17 UTC</createdTime>
+<generatorID>4A540A31-F348-244B-41F5-D92841F9269F</generatorID>
+<ownerDesignName>DDL exercicio designer</ownerDesignName>
+<engineerTo>
+<item key="FA6DD46E-304A-86AE-60D3-F6EF4BA8D473" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<ownDataTypeParameters>0,7,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="book_Id" id="0EAA5444-E0AD-8217-057D-58FFEA024198">
+<createdBy>Suporte</createdBy>
+<createdTime>2025-02-28 07:13:26 UTC</createdTime>
+<generatorID>B93655F0-6EB2-B213-FA39-46E6B0599F36</generatorID>
+<ownerDesignName>DDL exercicio designer</ownerDesignName>
+<engineerTo>
+<item key="FA6DD46E-304A-86AE-60D3-F6EF4BA8D473" value="true"/>
+</engineerTo>
+<referedAttribute>2C42C03F-E1BF-D43F-8390-F59006AAA728</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F09E2468-23EF-28E3-C7AC-C4529CEACB00</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AFCACBAB-7670-E59A-1F4F-0321283D299D" name="Stocks PK">
+<createdBy>Suporte</createdBy>
+<createdTime>2025-02-27 18:12:17 UTC</createdTime>
+<generatorID>CFEA2312-0120-0BAE-ADF7-F7DDBDA0AAFF</generatorID>
+<ownerDesignName>DDL exercicio designer</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FA6DD46E-304A-86AE-60D3-F6EF4BA8D473" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AF314029-C33B-F2FF-D65B-613C1B13D142</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

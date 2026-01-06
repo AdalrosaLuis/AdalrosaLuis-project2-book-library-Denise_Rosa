@@ -1,0 +1,37 @@
+name: book_library
+description: A Flutter app for tracking books and reading progress
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Firebase
+  firebase_core: ^3.0.0
+  cloud_firestore: ^5.0.0
+  firebase_auth: ^5.0.0
+  firebase_storage: ^12.0.0
+
+  # Utilidades e Estado
+  provider: ^6.1.5
+  http: ^1.1.0
+  intl: ^0.18.1
+
+  # Funcionalidades Nativas
+  mobile_scanner: ^5.1.0
+  image_picker: ^1.0.7
+  share_plus: ^10.1.0
+  url_launcher: ^6.3.2
+  # NOTIFICAÇÕES (Movidas para o lugar certo)
+  flutter_local_notifications: ^17.2.2
+  timezone: ^0.9.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true

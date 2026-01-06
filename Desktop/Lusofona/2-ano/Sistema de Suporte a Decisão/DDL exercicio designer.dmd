@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="DDL exercicio designer" id="3C75544F-EAAE-20BB-3C0A-1DF2EB98FEE7" version="3.5">
+<createdBy>Suporte</createdBy>
+<createdTime>2025-02-27 17:59:48 UTC</createdTime>
+<ownerDesignName>ssd exercicio 1</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>3C75544F-EAAE-20BB-3C0A-1DF2EB98FEE7</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="B244184F-EF8D-32C3-53D0-3E78FADCEC4A">
+<designStoragePath>C:\create_ additional_library_objects</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="DB43592B-459B-AF75-BE04-ED6305CA7DFC">
+<designStoragePath>C:\create_ additional_library_objects</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

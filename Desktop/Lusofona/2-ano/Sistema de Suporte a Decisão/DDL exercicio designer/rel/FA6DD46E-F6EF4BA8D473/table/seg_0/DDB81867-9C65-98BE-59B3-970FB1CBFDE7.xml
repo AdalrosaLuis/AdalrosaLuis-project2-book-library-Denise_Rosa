@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DDB81867-9C65-98BE-59B3-970FB1CBFDE7" name="Stocks">
+<sourceDDLFile>create_ additional_library_objects.sql</sourceDDLFile>
+<createdBy>Suporte</createdBy>
+<createdTime>2025-02-27 18:08:37 UTC</createdTime>
+<ownerDesignName>DDL exercicio designer</ownerDesignName>
+<importedID>33364A0A-B9B5-9F0F-6437-15DBACFA8D11</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="stock_id" id="CBD170FA-3DCE-52B7-82DE-2CDC4B164A3E">
+<sourceDDLFile>create_ additional_library_objects.sql</sourceDDLFile>
+<createdBy>Suporte</createdBy>
+<createdTime>2025-02-27 18:08:37 UTC</createdTime>
+<ownerDesignName>DDL exercicio designer</ownerDesignName>
+<importedID>6171274E-F395-344D-332F-9EA6A287BFB4</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,0,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="amount" id="4A540A31-F348-244B-41F5-D92841F9269F">
+<sourceDDLFile>create_ additional_library_objects.sql</sourceDDLFile>
+<createdBy>Suporte</createdBy>
+<createdTime>2025-02-27 18:08:37 UTC</createdTime>
+<ownerDesignName>DDL exercicio designer</ownerDesignName>
+<importedID>2BCBBB78-B60A-DA4B-1929-2269ABF2B35D</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<ownDataTypeParameters>0,7,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Books_book_Id" id="5DCDB516-A7C0-C390-6A40-362D280B0A8D">
+<createdBy>Suporte</createdBy>
+<createdTime>2025-02-28 07:18:59 UTC</createdTime>
+<generatorID>0EAA5444-E0AD-8217-057D-58FFEA024198</generatorID>
+<ownerDesignName>DDL exercicio designer</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F09E2468-23EF-28E3-C7AC-C4529CEACB00</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E0DE6F19-D327-3535-1893-3E8731BA7C8C" referredColumn="3925610F-0F00-BCDF-4E7D-A45538DA0FAE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CFEA2312-0120-0BAE-ADF7-F7DDBDA0AAFF" name="Stocks_PK">
+<sourceDDLFile>create_ additional_library_objects.sql</sourceDDLFile>
+<createdBy>Suporte</createdBy>
+<createdTime>2025-02-27 18:08:37 UTC</createdTime>
+<ownerDesignName>DDL exercicio designer</ownerDesignName>
+<importedID>D3BDB49F-79D4-D039-57A4-1024BECBF388</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CBD170FA-3DCE-52B7-82DE-2CDC4B164A3E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5AB44955-9EFF-9EEE-2807-088F13542D08" name="Stocks_Books_FK">
+<createdBy>Suporte</createdBy>
+<createdTime>2025-02-28 07:18:59 UTC</createdTime>
+<generatorID>B93655F0-6EB2-B213-FA39-46E6B0599F36</generatorID>
+<ownerDesignName>DDL exercicio designer</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5DCDB516-A7C0-C390-6A40-362D280B0A8D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

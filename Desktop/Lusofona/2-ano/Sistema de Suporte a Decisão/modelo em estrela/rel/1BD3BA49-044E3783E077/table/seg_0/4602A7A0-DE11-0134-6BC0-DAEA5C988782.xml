@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4602A7A0-DE11-0134-6BC0-DAEA5C988782" name="TIPO_PAGAMENTO">
+<createdBy>Suporte</createdBy>
+<createdTime>2025-03-12 11:56:01 UTC</createdTime>
+<generatorID>BCA0337C-391E-062A-C239-1A48FEE64F6C</generatorID>
+<ownerDesignName>modelo em estrela</ownerDesignName>
+<typeID>2</typeID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TIPO_PAGAMENTO_ID" id="DEBD09AB-5FED-D03B-7580-B5B547DA9ED1">
+<createdBy>Suporte</createdBy>
+<createdTime>2025-03-12 11:59:09 UTC</createdTime>
+<ownerDesignName>modelo em estrela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="ID" id="DBE9403A-CACB-081C-5CF6-34C85645934C">
+<createdBy>Suporte</createdBy>
+<createdTime>2025-03-12 11:56:01 UTC</createdTime>
+<generatorID>44B713B7-CD55-D471-7BCD-3ED028C19917</generatorID>
+<ownerDesignName>modelo em estrela</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME" id="6386D140-BE28-E6DD-A200-E9C75F3865F0">
+<createdBy>Suporte</createdBy>
+<createdTime>2025-03-12 11:56:01 UTC</createdTime>
+<generatorID>E37A9C76-7F99-240F-1579-8DAEC4EF6509</generatorID>
+<ownerDesignName>modelo em estrela</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="91C9E812-DCFD-0A12-8CCD-C3660E9E23C7" name="TIPO_PAGAMENTO_PK">
+<createdBy>Suporte</createdBy>
+<createdTime>2025-03-12 11:59:09 UTC</createdTime>
+<ownerDesignName>modelo em estrela</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="DEBD09AB-5FED-D03B-7580-B5B547DA9ED1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="02C592A0-2662-2C0D-3FD3-BF84E90D578B" name="TIPO_PAGAMENTO__IDX">
+<createdBy>Suporte</createdBy>
+<createdTime>2025-03-12 11:56:01 UTC</createdTime>
+<ownerDesignName>modelo em estrela</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>7F45BC6F-7F1C-2048-D385-C768DC84203A</relationGeneratorID>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="62259D0B-5BBF-2F05-7E68-FE6D0F98969C" name="Patron">
+<createdBy>Suporte</createdBy>
+<createdTime>2025-02-28 07:18:59 UTC</createdTime>
+<generatorID>B26B9714-0585-7E3E-CC14-15D325C130D5</generatorID>
+<ownerDesignName>DDL exercicio designer</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="patron_id" id="E4EA123C-FCEC-C33A-2543-D45E2E905E10">
+<createdBy>Suporte</createdBy>
+<createdTime>2025-02-28 07:18:59 UTC</createdTime>
+<generatorID>CE9D9886-1463-52B1-90E1-7D40E3561A0B</generatorID>
+<ownerDesignName>DDL exercicio designer</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>6FBD4803-C70D-4DC0-B73C-028873904509</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_name" id="A697C206-0216-9E52-70FB-48465F59FEC6">
+<createdBy>Suporte</createdBy>
+<createdTime>2025-02-28 07:18:59 UTC</createdTime>
+<generatorID>67D7B07F-1865-7A00-B0A0-4F8BC6B65CE6</generatorID>
+<ownerDesignName>DDL exercicio designer</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>704878FD-F9BD-10C0-6ED5-A328909C4661</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="first_name" id="A09FB95A-F907-105F-0C4B-B6F27D518046">
+<createdBy>Suporte</createdBy>
+<createdTime>2025-02-28 07:18:59 UTC</createdTime>
+<generatorID>9CFC13F0-005F-D2F1-A33D-C6BDC72DF7B1</generatorID>
+<ownerDesignName>DDL exercicio designer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>704878FD-F9BD-10C0-6ED5-A328909C4661</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="street_address" id="B77F4ABE-604F-E017-CFF2-6A3703C4E8B8">
+<createdBy>Suporte</createdBy>
+<createdTime>2025-02-28 07:18:59 UTC</createdTime>
+<generatorID>F36EFEB8-3095-B261-4ECD-1E5A746D09A1</generatorID>
+<ownerDesignName>DDL exercicio designer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F9AC7EFE-FBB0-6085-E654-0032B696B063</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="city" id="B36DA2B3-A2E9-3878-F288-BF44AD0B8F2F">
+<createdBy>Suporte</createdBy>
+<createdTime>2025-02-28 07:18:59 UTC</createdTime>
+<generatorID>53EA679F-678B-27A4-BD40-157F2B61E173</generatorID>
+<ownerDesignName>DDL exercicio designer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9D0ABAAD-97CB-78DF-E966-591253614A02</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="state" id="89496B69-6D01-4DB6-BDF8-E79DFE891C91">
+<createdBy>Suporte</createdBy>
+<createdTime>2025-02-28 07:18:59 UTC</createdTime>
+<generatorID>ECB94C3F-4529-E5C9-608C-3E126B62CF98</generatorID>
+<ownerDesignName>DDL exercicio designer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>EA68BDA6-5CC8-C434-D56D-594B4995E99F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zip" id="353D7574-C12C-3021-88BB-1B1CFAF5ADDE">
+<createdBy>Suporte</createdBy>
+<createdTime>2025-02-28 07:18:59 UTC</createdTime>
+<generatorID>F5AE8654-B55F-909D-53F0-C04394A9F0D9</generatorID>
+<ownerDesignName>DDL exercicio designer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E598C0AE-7A8A-0D07-CC6B-5A7D243E84E0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1B3D8193-5491-EFB7-E86B-250DCC8D178E" name="Patron_PK">
+<createdBy>Suporte</createdBy>
+<createdTime>2025-02-28 07:18:59 UTC</createdTime>
+<generatorID>4265F50F-464F-C31D-A319-0A19337B4FA6</generatorID>
+<ownerDesignName>DDL exercicio designer</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4EA123C-FCEC-C33A-2543-D45E2E905E10"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

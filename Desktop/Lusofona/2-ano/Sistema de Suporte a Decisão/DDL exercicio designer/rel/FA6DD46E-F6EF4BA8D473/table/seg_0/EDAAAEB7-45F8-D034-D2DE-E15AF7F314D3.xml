@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EDAAAEB7-45F8-D034-D2DE-E15AF7F314D3" name="Categories">
+<sourceDDLFile>create_ additional_library_objects.sql</sourceDDLFile>
+<createdBy>Suporte</createdBy>
+<createdTime>2025-02-27 18:08:37 UTC</createdTime>
+<ownerDesignName>DDL exercicio designer</ownerDesignName>
+<importedID>B116185B-90C7-FFE8-4B6E-8D4E4744F071</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="category_id" id="8A19A0D0-AC1F-77CF-A73C-2DC3BD0F2FC3">
+<sourceDDLFile>create_ additional_library_objects.sql</sourceDDLFile>
+<createdBy>Suporte</createdBy>
+<createdTime>2025-02-27 18:08:37 UTC</createdTime>
+<ownerDesignName>DDL exercicio designer</ownerDesignName>
+<importedID>5953F177-C3F7-F288-0770-054C5A024636</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,0,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="category_name" id="96B35AE4-B070-80BA-9706-DBB7EE291F1B">
+<sourceDDLFile>create_ additional_library_objects.sql</sourceDDLFile>
+<createdBy>Suporte</createdBy>
+<createdTime>2025-02-27 18:08:37 UTC</createdTime>
+<ownerDesignName>DDL exercicio designer</ownerDesignName>
+<importedID>8B96FDF6-71C8-0546-F019-6327E5FA68B6</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,0,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="64733131-92AA-8BF0-A9F8-8D9E23C7646D" name="Categories_PK">
+<sourceDDLFile>create_ additional_library_objects.sql</sourceDDLFile>
+<createdBy>Suporte</createdBy>
+<createdTime>2025-02-27 18:08:37 UTC</createdTime>
+<ownerDesignName>DDL exercicio designer</ownerDesignName>
+<importedID>592226DA-35FC-8AA0-27B5-D8AC3E30F556</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A19A0D0-AC1F-77CF-A73C-2DC3BD0F2FC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

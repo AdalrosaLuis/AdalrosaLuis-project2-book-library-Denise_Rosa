@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="07DD8836-F600-2D94-5CD2-D15C762EEBF4" containerWithKeyObject="D1750E04-C7B1-0AA2-8098-435F1CBE9BAA" localFKIndex="0858C277-AA36-BEF5-7583-AA5A07490D4B" name="Books_Categories_FK">
+<createdBy>Suporte</createdBy>
+<createdTime>2025-02-28 07:18:59 UTC</createdTime>
+<generatorID>F4C545BB-D363-5D2E-F39A-AF6B08ABE70B</generatorID>
+<ownerDesignName>DDL exercicio designer</ownerDesignName>
+<referredTableLongName>Categories</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EDAAAEB7-45F8-D034-D2DE-E15AF7F314D3</referredTableID>
+<keyObject>64733131-92AA-8BF0-A9F8-8D9E23C7646D</keyObject>
+<referredKeyID>64733131-92AA-8BF0-A9F8-8D9E23C7646D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>category_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

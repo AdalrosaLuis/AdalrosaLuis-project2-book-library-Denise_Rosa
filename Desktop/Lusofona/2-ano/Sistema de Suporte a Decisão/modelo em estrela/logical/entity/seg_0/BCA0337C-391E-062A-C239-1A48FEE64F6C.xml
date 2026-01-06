@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BCA0337C-391E-062A-C239-1A48FEE64F6C" name="TIPO_PAGAMENTO">
+<createdBy>Suporte</createdBy>
+<createdTime>2025-03-12 11:49:29 UTC</createdTime>
+<ownerDesignName>modelo em estrela</ownerDesignName>
+<engineerTo>
+<item key="1BD3BA49-0679-45B2-1091-044E3783E077" value="true"/>
+</engineerTo>
+<typeID>2</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="44B713B7-CD55-D471-7BCD-3ED028C19917">
+<createdBy>Suporte</createdBy>
+<createdTime>2025-03-12 11:49:52 UTC</createdTime>
+<ownerDesignName>modelo em estrela</ownerDesignName>
+<engineerTo>
+<item key="1BD3BA49-0679-45B2-1091-044E3783E077" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOME" id="E37A9C76-7F99-240F-1579-8DAEC4EF6509">
+<createdBy>Suporte</createdBy>
+<createdTime>2025-03-12 11:50:18 UTC</createdTime>
+<ownerDesignName>modelo em estrela</ownerDesignName>
+<engineerTo>
+<item key="1BD3BA49-0679-45B2-1091-044E3783E077" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

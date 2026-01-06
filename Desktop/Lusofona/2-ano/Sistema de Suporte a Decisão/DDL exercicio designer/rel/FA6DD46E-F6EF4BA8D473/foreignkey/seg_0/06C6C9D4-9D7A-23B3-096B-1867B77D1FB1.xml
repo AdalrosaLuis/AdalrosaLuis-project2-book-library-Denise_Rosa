@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="06C6C9D4-9D7A-23B3-096B-1867B77D1FB1" containerWithKeyObject="88BC5333-E265-29E1-4ECA-3493B871B2D8" localFKIndex="F10218E4-B533-F2D9-FDA4-064E6F390D29" name="Transactions_Patron_FK">
+<createdBy>Suporte</createdBy>
+<createdTime>2025-02-28 07:18:59 UTC</createdTime>
+<generatorID>178C2843-F728-2A47-DFB3-E7332397726E</generatorID>
+<ownerDesignName>DDL exercicio designer</ownerDesignName>
+<referredTableLongName>Patron</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>62259D0B-5BBF-2F05-7E68-FE6D0F98969C</referredTableID>
+<keyObject>1B3D8193-5491-EFB7-E86B-250DCC8D178E</keyObject>
+<referredKeyID>1B3D8193-5491-EFB7-E86B-250DCC8D178E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>patron_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

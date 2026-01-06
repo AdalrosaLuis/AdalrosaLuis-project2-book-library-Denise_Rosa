@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BD7F2413-8340-158E-D57B-F3CDDA379C40" name="Transactions">
+<createdBy>Suporte</createdBy>
+<createdTime>2025-02-27 18:44:30 UTC</createdTime>
+<ownerDesignName>DDL exercicio designer</ownerDesignName>
+<engineerTo>
+<item key="FA6DD46E-304A-86AE-60D3-F6EF4BA8D473" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="transaction_id" id="62401CC3-EC36-1019-CF60-3F276DE13F45">
+<createdBy>Suporte</createdBy>
+<createdTime>2025-02-27 18:44:56 UTC</createdTime>
+<ownerDesignName>DDL exercicio designer</ownerDesignName>
+<engineerTo>
+<item key="FA6DD46E-304A-86AE-60D3-F6EF4BA8D473" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>6FBD4803-C70D-4DC0-B73C-028873904509</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="transaction_date" id="9B3569FB-452A-C893-F26C-119FC238E914">
+<createdBy>Suporte</createdBy>
+<createdTime>2025-02-27 18:47:53 UTC</createdTime>
+<ownerDesignName>DDL exercicio designer</ownerDesignName>
+<engineerTo>
+<item key="FA6DD46E-304A-86AE-60D3-F6EF4BA8D473" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="transaction_type" id="C88845C2-87E5-A296-FDDC-EE816450A80C">
+<createdBy>Suporte</createdBy>
+<createdTime>2025-02-27 18:48:26 UTC</createdTime>
+<ownerDesignName>DDL exercicio designer</ownerDesignName>
+<engineerTo>
+<item key="FA6DD46E-304A-86AE-60D3-F6EF4BA8D473" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>6FBD4803-C70D-4DC0-B73C-028873904509</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="book_Id" id="67D184DD-BEAA-42EF-B3BF-42C7296CF4E2">
+<createdBy>Suporte</createdBy>
+<createdTime>2025-02-28 07:07:43 UTC</createdTime>
+<generatorID>E28FB1A6-12A8-D393-90E8-07C7B563CDF6</generatorID>
+<ownerDesignName>DDL exercicio designer</ownerDesignName>
+<engineerTo>
+<item key="FA6DD46E-304A-86AE-60D3-F6EF4BA8D473" value="true"/>
+</engineerTo>
+<referedAttribute>2C42C03F-E1BF-D43F-8390-F59006AAA728</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F09E2468-23EF-28E3-C7AC-C4529CEACB00</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="patron_id" id="7BEF2A7D-05A2-B34D-2EB2-B0F830F3509A">
+<createdBy>Suporte</createdBy>
+<createdTime>2025-02-28 07:09:04 UTC</createdTime>
+<generatorID>178C2843-F728-2A47-DFB3-E7332397726E</generatorID>
+<ownerDesignName>DDL exercicio designer</ownerDesignName>
+<engineerTo>
+<item key="FA6DD46E-304A-86AE-60D3-F6EF4BA8D473" value="true"/>
+</engineerTo>
+<referedAttribute>CE9D9886-1463-52B1-90E1-7D40E3561A0B</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>6FBD4803-C70D-4DC0-B73C-028873904509</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C3E9F587-64D7-3145-E250-426514943149" name="Transactions PK">
+<createdBy>Suporte</createdBy>
+<createdTime>2025-02-27 18:45:14 UTC</createdTime>
+<ownerDesignName>DDL exercicio designer</ownerDesignName>
+<engineerTo>
+<item key="FA6DD46E-304A-86AE-60D3-F6EF4BA8D473" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>62401CC3-EC36-1019-CF60-3F276DE13F45</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

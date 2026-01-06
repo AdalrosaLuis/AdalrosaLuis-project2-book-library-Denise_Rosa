@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="55092DD5-8846-2FA2-C955-393868C2B1AE" containerWithKeyObject="977D2D02-81A4-DD1F-1972-0B3B281BA110" localFKIndex="1315A192-BBC0-C2FD-46A3-A569E4BA12F8" name="FACTS_VENDAS_DIM_TEMPO_FK">
+<createdBy>Suporte</createdBy>
+<createdTime>2025-03-12 11:56:01 UTC</createdTime>
+<generatorID>D7379D30-6E74-DDF3-6A8C-AFC19D5072D7</generatorID>
+<ownerDesignName>modelo em estrela</ownerDesignName>
+<referredTableLongName>DIM_TEMPO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F4B07B17-B82D-0C9C-A20B-B70C526C9F24</referredTableID>
+<keyObject>FAF0D3A5-1727-1D0F-C271-2A01A68BA431</keyObject>
+<referredKeyID>FAF0D3A5-1727-1D0F-C271-2A01A68BA431</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>DIM_TEMPO_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,194 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="977D2D02-81A4-DD1F-1972-0B3B281BA110" name="FACTS_VENDAS">
+<createdBy>Suporte</createdBy>
+<createdTime>2025-03-12 11:14:02 UTC</createdTime>
+<generatorID>A44E36F3-503D-B5C1-3A32-15222D163845</generatorID>
+<ownerDesignName>modelo em estrela</ownerDesignName>
+<typeID>1</typeID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FACTS_ID" id="498596F0-8907-5107-9350-57C8FD7B6746">
+<createdBy>Suporte</createdBy>
+<createdTime>2025-03-12 11:20:48 UTC</createdTime>
+<ownerDesignName>modelo em estrela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="QUANTIDADE" id="5BAF9DAF-BDCF-9853-1C45-89CE05360668">
+<createdBy>Suporte</createdBy>
+<createdTime>2025-03-12 11:14:02 UTC</createdTime>
+<generatorID>D831D9D9-5657-C396-25F1-395375ACE289</generatorID>
+<ownerDesignName>modelo em estrela</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PUNITARIO" id="D6B4769D-3208-7460-8E14-68644B1C1DD9">
+<createdBy>Suporte</createdBy>
+<createdTime>2025-03-12 11:14:02 UTC</createdTime>
+<generatorID>DDA81A51-D5FE-B086-5EDC-EE142151CE10</generatorID>
+<ownerDesignName>modelo em estrela</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALOR" id="B62092C8-C96C-ABEA-44DC-C2E9745D22FB">
+<createdBy>Suporte</createdBy>
+<createdTime>2025-03-12 11:14:02 UTC</createdTime>
+<generatorID>60C41274-3007-1550-D6F0-B13FCCFA8D12</generatorID>
+<ownerDesignName>modelo em estrela</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIM_LOJA_ID" id="38141E3D-C438-6B2B-AD64-9AF339FF2C2E">
+<createdBy>Suporte</createdBy>
+<createdTime>2025-03-12 11:14:02 UTC</createdTime>
+<generatorID>C0DB8857-AA83-162C-B5D1-BB0B10870601</generatorID>
+<ownerDesignName>modelo em estrela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DE52AAC7-1DFE-E312-76D3-558F593BD256" referredColumn="25C32690-67B8-8F1A-0072-4E32D26B3E79"/>
+</associations>
+</Column>
+<Column name="DIM_LOJA_LOJA_SKEY" id="CCCA00CF-1A39-AF1E-C0FE-3B4336C64670">
+<createdBy>Suporte</createdBy>
+<createdTime>2025-03-12 11:14:02 UTC</createdTime>
+<generatorID>82958497-8551-14E7-6BB1-686AD4DE7302</generatorID>
+<ownerDesignName>modelo em estrela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DE52AAC7-1DFE-E312-76D3-558F593BD256" referredColumn="4BE1932A-0A4D-1B57-EE68-76E105E45A3C"/>
+</associations>
+</Column>
+<Column name="DIM_TEMPO_DIM_TEMPO_ID" id="CBB817EB-1467-58C7-FC9D-7BEC0EE3A8B3">
+<createdBy>Suporte</createdBy>
+<createdTime>2025-03-12 11:56:01 UTC</createdTime>
+<ownerDesignName>modelo em estrela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="55092DD5-8846-2FA2-C955-393868C2B1AE" referredColumn="9AB3F9B4-D155-70F4-90F1-27C667BB81BE"/>
+</associations>
+</Column>
+<Column name="DIM_Funcionario_ID" id="6626DC93-7AB3-F006-7CF0-21B8440C94BE">
+<createdBy>Suporte</createdBy>
+<createdTime>2025-03-12 11:59:09 UTC</createdTime>
+<generatorID>1C426ECB-3C13-FDFF-2FCE-748FBAE77F30</generatorID>
+<ownerDesignName>modelo em estrela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6B85CC17-08BB-FAD9-CC5B-F689DD87F730" referredColumn="ED6B20C6-7A9A-2FC5-3BFA-A459E0705621"/>
+</associations>
+</Column>
+<Column name="TIPO_PAGAMENTO_TIPO_PAGAMENTO_ID" id="D776AFBF-48B1-CC8E-9BD2-1A93AB0B5F82">
+<createdBy>Suporte</createdBy>
+<createdTime>2025-03-12 11:59:09 UTC</createdTime>
+<ownerDesignName>modelo em estrela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="03F432D9-410C-D21C-5ABD-7DE23DB26D55" referredColumn="DEBD09AB-5FED-D03B-7580-B5B547DA9ED1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E33F38E3-62AA-E203-3C65-139AAF205D3B" name="FACTS_PK">
+<createdBy>Suporte</createdBy>
+<createdTime>2025-03-12 11:20:48 UTC</createdTime>
+<ownerDesignName>modelo em estrela</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="498596F0-8907-5107-9350-57C8FD7B6746"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="71989723-3C9E-42A0-3D9A-36A2E2D2CB47" name="FACTS_VENDAS_DIM_LOJA_FK">
+<createdBy>Suporte</createdBy>
+<createdTime>2025-03-12 11:14:02 UTC</createdTime>
+<generatorID>FBDCB53E-AAB6-DAF0-90D7-86EDD7B4E864</generatorID>
+<ownerDesignName>modelo em estrela</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38141E3D-C438-6B2B-AD64-9AF339FF2C2E"/>
+<colUsage columnID="CCCA00CF-1A39-AF1E-C0FE-3B4336C64670"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1315A192-BBC0-C2FD-46A3-A569E4BA12F8" name="FACTS_VENDAS_DIM_TEMPO_FK">
+<createdBy>Suporte</createdBy>
+<createdTime>2025-03-12 11:56:01 UTC</createdTime>
+<generatorID>D7379D30-6E74-DDF3-6A8C-AFC19D5072D7</generatorID>
+<ownerDesignName>modelo em estrela</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CBB817EB-1467-58C7-FC9D-7BEC0EE3A8B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3C3ACF96-BA91-A177-6095-8282BD1D4359" name="FACTS_VENDAS_TIPO_PAGAMENTO_FK">
+<createdBy>Suporte</createdBy>
+<createdTime>2025-03-12 11:59:09 UTC</createdTime>
+<generatorID>924DDA54-AEFD-C6BA-DB95-95C3F3A20DAB</generatorID>
+<ownerDesignName>modelo em estrela</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D776AFBF-48B1-CC8E-9BD2-1A93AB0B5F82"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="087031AB-FFAE-FA72-FE23-A0483E58C6DA" name="FACTS_VENDAS_DIM_Funcionario_FK">
+<createdBy>Suporte</createdBy>
+<createdTime>2025-03-12 11:59:09 UTC</createdTime>
+<generatorID>BEF72FAC-0E01-0276-FFE0-0919F61DE5C4</generatorID>
+<ownerDesignName>modelo em estrela</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6626DC93-7AB3-F006-7CF0-21B8440C94BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
