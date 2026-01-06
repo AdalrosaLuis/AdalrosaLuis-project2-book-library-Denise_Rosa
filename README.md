@@ -1,46 +1,101 @@
-# projecttt
+A Minha Biblioteca (Projecttt)
+Leva a tua estante contigo, onde quer que vás.
+Secção 1: Visão Geral do Projeto
+Descrição: Este projeto nasceu de uma necessidade real: organizar coleções de livros e manter um registo fiel do progresso de leitura. Com "A Minha Biblioteca", o utilizador pode registar cada obra, atualizar o número de páginas lidas e visualizar o seu avanço de forma gráfica. É mais do que uma simples lista; é um ecossistema digital que utiliza dados na nuvem para garantir que o histórico literário do utilizador nunca se perca, funcionando como um incentivo constante ao hábito da leitura.
 
-A new Flutter project.
-A Minha Biblioteca – Gestão Literária Pessoal
-rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
-Seção 1: Visão Geral do Projeto
-Slogan: "Leva a tua estante contigo, onde quer que vás."
+Link para Vídeo Demo: [link do video]
 
-Descrição: Este projeto nasceu de uma necessidade real: organizar a minha coleção de livros e manter um registo fiel do que já li e do que ainda quero ler. 
-Com "A Minha Biblioteca", o utilizador pode registar cada obra, atualizar o número de páginas lidas e ver o seu progresso de forma visual. É mais do que uma 
-lista; é um incentivo à leitura, com os dados guardados na nuvem para nunca se perderem.
+Capturas de Ecrã: | imagens dos ecras
 
-Capturas de Ecrã: (Deves incluir aqui o gráfico que mostra os teus 6 livros "Quero ler", o ecrã de login e a lista principal).
+Secção 2: Lista de Funcionalidades
+Controlo Total (CRUD): Adicionar, editar, consultar e remover livros da coleção pessoal.
 
-Seção 2: Lista de Recursos
-Controlo Total (CRUD): Podes adicionar livros novos, editar os detalhes, consultá-los ou removê-los se já não fizerem parte da coleção.
+Estatísticas de Leitura: Gráfico de barras dinâmico que mostra livros "Lidos", "A Ler" e "Quero Ler".
 
-Estatísticas de Leitura: Um gráfico de barras que se atualiza sozinho e mostra quantos livros tens "Lidos", "A Ler" ou na lista de espera.
+Sincronização na Nuvem: Dados guardados em tempo real através do Firebase.
 
-Ferramentas Nativas: A app usa a câmara para guardar a foto da capa e o GPS para te ajudar a encontrar a biblioteca pública mais próxima.
+Autenticação: Sistema de login seguro para proteção da biblioteca pessoal.
 
-Sugestões Inteligentes: Através da API da Google Books, a app recomenda outros livros do mesmo autor que estás a consultar.
+Modo Escuro: Interface adaptável para uma leitura noturna mais confortável.
 
-Personalização: Inclui um modo escuro para quem gosta de organizar a biblioteca à noite com mais conforto.
+Secção 3: Arquitetura
+O projeto segue o padrão de Arquitetura em Camadas para garantir a separação de responsabilidades e facilitar a manutenção:
 
-Seção 3: Arquitetura
-Organização: Separei o código de forma limpa: os ecrãs estão em screens, a lógica de dados em providers e as classes de base em models.
+models/: Definição da estrutura de dados (ex: Book, UserModel).
 
-Gestão de Estado: Usei o Provider para que a app seja rápida e fluida. Temos o AuthProvider para as contas, o BookProvider para os livros e o SettingsProvider para o tema da app.
+services/: Lógica de comunicação com o Firebase (Firestore, Auth, Storage).
 
-Seção 5: Configuração do Firebase
-Estrutura: Uso o Firestore para guardar tudo. Cada utilizador tem o seu próprio espaço privado (users/{uid}/books), garantindo que a tua biblioteca é só tua.
+providers/: Gestão de estado global através do pacote Provider.
 
-Imagens: As capas dos livros que fotografas são guardadas no Firebase Storage para não pesarem na base de dados.
+screens/: Interfaces de utilizador (UI) organizadas por módulos (Auth, Home, Profile).
 
-Segurança: As regras do Firebase estão configuradas para que ninguém consiga ler ou apagar os livros de outro utilizador.
+widgets/: Componentes reutilizáveis como botões e cartões (cards).
 
-Seção 8: Desafios e Soluções
-Sincronização: O maior desafio foi garantir que, ao adicionar um livro, o gráfico de estatísticas mudasse logo.
+Secção 4: Instruções de Configuração
+Pré-requisitos:
 
-Solução: Consegui resolver isto usando notifyListeners() no Provider, o que obriga a interface a redesenhar-se assim que os dados mudam no Firebase.
+Flutter SDK (v3.x ou superior)
 
-Seção 9: Melhorias Futuras
-Leitor de Código de Barras: Infelizmente, tive dificuldades técnicas com a biblioteca de QR Code nesta fase, mas é a primeira coisa que quero adicionar na próxima atualização para facilitar o registo de livros pelo ISBN.
+Conta Firebase configurada
 
-Partilha: Gostava de permitir que os utilizadores pudessem emprestar livros virtualmente entre si.
+Passos para Execução:
+
+Clonar o repositório para a máquina local.
+
+Executar flutter pub get no terminal para instalar as dependências.
+
+Adicionar o ficheiro google-services.json (Android) na pasta android/app/.
+
+Lançar a aplicação com o comando flutter run.
+
+Secção 5: Configuração do Firebase
+Cloud Firestore: Estrutura de coleções organizada em users/{uid}/books/.
+
+Firebase Storage: Pasta covers/ destinada ao armazenamento das imagens das capas.
+
+Segurança: Regras configuradas para que apenas utilizadores autenticados possam aceder e gerir os seus próprios dados literários.
+
+Secção 6: Documentação da API
+API Externa: Google Books API.
+
+Endpoint Utilizado:url = Uri.parse('https://www.googleapis.com/books/v1/volumes?q=isbn:$cleanIsbn');
+
+Função: A aplicação consome esta API para sugerir metadados e informações automáticas sobre os livros consultados.
+
+Secção 7: Tecnologias Utilizadas
+Framework: Flutter
+
+Linguagem: Dart
+
+Gestão de Estado: Provider
+
+Backend: Firebase (Auth, Firestore, Storage)
+
+Gráficos: Pacote fl_chart para a visualização de estatísticas.
+
+Secção 8: Desafios e Soluções
+Desafio: Garantir a inicialização do Firebase antes do carregamento da interface (UI).
+
+Solução: Utilização de WidgetsFlutterBinding.ensureInitialized() e execução assíncrona do Firebase.initializeApp() no ponto de entrada (main.dart).
+
+Desafio: Atualização em tempo real do gráfico de estatísticas após a inserção de novos dados.
+
+Solução: Implementação do método notifyListeners() nos Providers para forçar a reconstrução dos widgets dependentes.
+
+Secção 9: Melhorias Futuras
+Nesta fase do projeto, as integrações de hardware foram iniciadas ao nível da interface, mas a persistência de dados será finalizada em atualizações futuras:
+
+Scanner ISBN: Concluir a lógica de gravação para que o scanner preencha o formulário de forma automática.
+
+Câmara & Storage: Implementar o carregamento (upload) efetivo das fotografias tiradas para o Firebase Storage.
+
+Geolocalização (GPS): Ativar a funcionalidade de guardar as coordenadas das bibliotecas favoritas do utilizador.
+
+Social: Criar um sistema de partilha de recomendações literárias entre utilizadores.
+
+Secção 10: Créditos
+Interface: Segue as diretrizes do Material Design 3.
+
+Dados: Informações de livros providenciadas pela Google Books API.
+
+Tutoriais: Baseado na documentação oficial do Flutter e nos codelabs do Firebase.
